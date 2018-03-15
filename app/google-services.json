@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "111857154046",
+    "firebase_url": "https://hubifit.firebaseio.com",
+    "project_id": "hubifit",
+    "storage_bucket": "hubifit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111857154046:android:a3ebf09cd9e6accc",
+        "android_client_info": {
+          "package_name": "com.example.felixemilioramosscalabrin.hubifit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111857154046-rf510kpp569c49f43vekn5527d10694e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL08JAyKzdjfYlYoCb5x0fxtG70iSpHdw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

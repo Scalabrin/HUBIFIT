@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hubifit</string>
+    <string name="facebook_app_id">134944874001823</string>
+    <string name="fb_login_protocol_scheme">fb134944874001823</string>
+    <string name="cancel_login">Log out</string>
+    <string name="login_error">Ocurrion un error</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam eu sem nec viverra. Phasellus vel leo in ante facilisis finibus. In id vehicula nunc.</string>
+
+</resources>

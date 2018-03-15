@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffafa"
+    tools:context="com.example.felixemilioramosscalabrin.hubifit.Profile">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:local="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:minHeight="?attr/actionBarSize"
+        local:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <ImageButton
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/profile_focused"
+            android:onClick="g_profile"
+            />
+
+        <ImageButton
+            android:id="@+id/fav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/favorites_unfocused"
+            android:onClick="g_favorites"
+            />
+
+        <ImageButton
+            android:id="@+id/find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/unfocused_search"
+            android:onClick="g_Search"/>
+
+        <!--<EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="100dp"
+            android:hint="find"
+            android:textColorHint="#b3b3b3"
+            android:textColor="#b3b3b3"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            /> -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="120dp"
+            android:background="@drawable/button_indicator_nav"
+            android:text="Profile" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/profile_pic"
+        app:border_color="#657dc4"
+        app:border_width="4dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/namee2"
+        android:text=""
+        android:textSize="28dp"
+        android:textColor="#b9b9b9"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lorem_ipsum"
+        android:textSize="20dp"
+        android:textColor="#b9b9b9"
+        android:gravity="center"
+        android:layout_marginTop="390dp"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/simple_button"
+        android:textColor="#b9b9b9"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/simple_button"
+        android:textColor="#b9b9b9"
+        android:onClick="logut"/>
+
+</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
